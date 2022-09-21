@@ -48,7 +48,7 @@ body {
         rgba(0, 0, 0, 0.6)
       ), url(./photo_2022-09-21_17-52-09.jpg);
     background-size: auto 100%;
-    background-position: -50vw;
+    background-position: center;
     }
 }
 
