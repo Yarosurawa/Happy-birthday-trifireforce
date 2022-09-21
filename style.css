@@ -1,16 +1,25 @@
 body {
     margin: 0;
     padding: 0;
-
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.6), 
+        rgba(0, 0, 0, 0.6)
+      ), url(./IMG_5090.JPG);
+    background-size: cover;
 }
 
 .container {
+    font-size: calc(((1vw + 2vh) / 2) * 1.5);
     text-align: center;
-    margin: 34vh 30vw;
+    margin: 5vh 0;
+    padding: 9vh 30vw;
+    z-index: 2;
+    background-image: linear-gradient(to left, #00000000 0%, #000a 20%, #000a 80%, #0000 100%);
 }
 
 h1 {
     font-family: consolas;
+    color: white;
     margin: 0;
 }
 
@@ -21,4 +30,5 @@ h1 {
 
 .tl {
     margin-bottom: 35px;
+    font-size: calc(((1vw + 2vh) / 2) * 4);
 }
