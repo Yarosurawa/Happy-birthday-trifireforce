@@ -1,5 +1,5 @@
 // The data/time we want to countdown to
-var countDownDate = new Date("Sep 24, 2022 18:00:00").getTime();
+var countDownDate = new Date("Apr 1, 2023 00:00:00").getTime();
 
 // Run myfunc every second
 var myfunc = setInterval(function() {
@@ -14,10 +14,10 @@ var minutes = Math.floor((timeleft % (1000 * 60 * 60)) / (1000 * 60));
 var seconds = Math.floor((timeleft % (1000 * 60)) / 1000);
     
 // Result is output to the specific element
-document.getElementById("days").innerHTML = days + "дн "
-document.getElementById("hours").innerHTML = hours + "год " 
-document.getElementById("mins").innerHTML = minutes + "хв " 
-document.getElementById("secs").innerHTML = seconds + "с " 
+document.getElementById("days").innerHTML = days + "d"
+document.getElementById("hours").innerHTML = hours + "h" 
+document.getElementById("mins").innerHTML = minutes + "m" 
+document.getElementById("secs").innerHTML = seconds + "s" 
     
 // Display the message when countdown is over
 if (timeleft < 0) {
